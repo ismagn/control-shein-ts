@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .swipe-action__leading {
+    background-color: rgb(127, 126, 224);
+    color: white;
+    margin-bottom: .8rem;
+    margin-top: 0.5rem;
+  }
+  
+  .swipe-action__trailing {
+    background-color: #f17878;
+    margin-bottom: .8rem;
+    margin-top: 0.5rem;
+    color: white;
+  }
+  
+  .swipeable-list .swipe-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-align: right;
+  }
+  
+  .modal {
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  .animar{
+    opacity: 1;
+  
+  }
+  
+  .Panel_notas{
+    transform: scaleY(0);
+    transition: .3s;
+  }
+  
+  .animarNotas{
+    transform-origin: bottom;
+   transform: scaleY(1);
+  }
+  
+  .stephanie{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+  }
